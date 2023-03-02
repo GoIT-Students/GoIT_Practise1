@@ -1,10 +1,8 @@
-import styles from "./App.module.css";
-import Statistics from "./components/Statistics/Statistics";
+import Statistics from './components/Statistics/Statistics';
 
 const App = () => {
   return (
-    <div className={styles.green}>
-      I am App component
+    <div>
       <Statistics />
     </div>
   );
